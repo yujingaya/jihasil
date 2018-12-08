@@ -34,3 +34,7 @@ lastUpdated = '마지막 수정'
   # [[themeConfig.nav]]
   # text = '쿡북'
   # link = '/쿡북/'  
+
+[plugins]
+  [plugins.'@vuepress/google-analytics']
+  ga = 'UA-130603275-1'

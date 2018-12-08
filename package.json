@@ -1,0 +1,17 @@
+{
+  "name": "hitchhikers-guide-to-rust",
+  "version": "0.1.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build",
+    "now-build": "vuepress build"
+  },
+  "author": "yujingaya@icloud.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.0.0-alpha.0",
+    "vuepress": "^1.0.0-alpha.27"
+  }
+}
