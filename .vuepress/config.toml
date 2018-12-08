@@ -1,0 +1,36 @@
+title = 'Rust'
+description = '믿음직하고 효율적인 시스템 프로그래밍 언어'
+
+lang = 'ko-kr'
+
+[themeConfig]
+lastUpdated = '마지막 수정'
+
+  [[themeConfig.sidebar]]
+  title = ''
+  collapsable = false
+  children = [ '/guide/' ]
+
+  [[themeConfig.sidebar]]
+  title = '기초'
+  collapsable = false
+  children = [
+    '/guide/시작하기/',
+    '/guide/기초-문법/'
+  ]
+
+  [[themeConfig.sidebar]]
+  title = '고급'
+  collapsable = false
+  children = [
+    # '/guide/시작하기/',
+    # '/guide/기초-문법/'
+  ]
+
+  [[themeConfig.nav]]
+  text = '가이드'
+  link = '/guide/'
+
+  # [[themeConfig.nav]]
+  # text = '쿡북'
+  # link = '/쿡북/'  
