@@ -114,7 +114,7 @@ img[alt=WebAssembly]
 
   .capability
     flex none
-    width 47% // anchor 때문인듯..
+    width calc(50% - 30px) // anchor 때문인듯..
     padding .75rem
     margin 0
 
