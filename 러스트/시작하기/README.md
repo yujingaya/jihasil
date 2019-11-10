@@ -1,17 +1,18 @@
 ---toml
-prev = '/프로그래밍/'
-next = '/프로그래밍/기초-문법/'
+prev = '/러스트/'
+next = '/러스트/기초-문법/'
 
-permalink = '/프로그래밍/시작하기/'
+permalink = '/러스트/시작하기/'
 sidebarDepth = 4
 ---
 
 # 시작하기
-## Rustup: Rust 버전 관리 도구
-Rust를 설치하는 가장 좋은 방법은 Rustup을 이용하는 것입니다. Rustup은 Rust를 설치해주고 Rust의 버전을 관리해줍니다.
+## 러스트업으로 러스트 설치하기
+러스트를 설치하는 가장 좋은 방법은 러스트업을 이용하는 것입니다.
+러스트업은 러스트와 함께 
 
 ### macOS, Linux에서 설치
-Rustup을 설치하려면 터미널을 열고 아래의 명령을 실행시켜 주세요.
+러스트업을 설치하려면 터미널을 열고 아래의 명령을 실행시켜 주세요.
 ```bash
 $ curl https://sh.rustup.rs -sSf | sh
 ```
@@ -19,8 +20,8 @@ $ curl https://sh.rustup.rs -sSf | sh
 ### Windows에서 설치
 [rustup-init.exe](https://win.rustup.rs) 파일로 설치하세요.
 
-## Cargo: Rust 빌드 툴과 패키지 매니저
-Rustup을 설치했다면 Rust의 빌드 툴이자 패키지 매니저인 Cargo도 함께 설치되었습니다. Cargo로 첫 Rust 프로젝트를 시작해봅시다.
+## Cargo: 빌드 도구, 패키지 매니저
+러스트업을 설치했다면 러스트의 빌드 툴이자 패키지 매니저인 Cargo도 함께 설치되었습니다. Cargo로 첫 러스트 프로젝트를 시작해봅시다.
 ```bash
 cargo new hello-rust
 ```
