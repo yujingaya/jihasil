@@ -1,6 +1,9 @@
 ---toml
-prev = false
-next = '../기초-문법/'
+prev = '/프로그래밍/'
+next = '/프로그래밍/기초-문법/'
+
+permalink = '/프로그래밍/시작하기/'
+sidebarDepth = 4
 ---
 
 # 시작하기

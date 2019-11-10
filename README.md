@@ -2,7 +2,7 @@
 home = true
 heroImage = '/hero.png'
 actionText = '시작하기 →'
-actionLink = '/guide/시작하기/'
+actionLink = '/프로그래밍/시작하기/'
 footer = 'MIT License | Copyright © 2018-Present Yujin'
 
 [[features]]

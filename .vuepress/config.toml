@@ -5,31 +5,48 @@ lang = 'ko-kr'
 
 [themeConfig]
 lastUpdated = '마지막 수정'
-
-  [[themeConfig.sidebar]]
-  title = ''
-  collapsable = false
-  children = [ '/guide/' ]
-
-  [[themeConfig.sidebar]]
-  title = '기초'
-  collapsable = false
-  children = [
-    '/guide/시작하기/',
-    '/guide/기초-문법/'
-  ]
-
-  [[themeConfig.sidebar]]
-  title = '고급'
-  collapsable = false
-  children = [
-    # '/guide/시작하기/',
-    # '/guide/기초-문법/'
-  ]
+smoothScroll = true
 
   [[themeConfig.nav]]
-  text = '가이드'
-  link = '/guide/'
+  text = '프로그래밍'
+  link = '/프로그래밍/'
+
+  [themeConfig.sidebar]
+    [[themeConfig.sidebar."/프로그래밍/"]]
+      title = ''
+      collapsable = false
+      children = [ '/프로그래밍/' ]
+
+    [[themeConfig.sidebar."/프로그래밍/"]]
+      title = '기초'
+      collapsable = false
+      children = [
+        '/프로그래밍/시작하기/',
+        '/프로그래밍/기초-문법/'
+      ]
+
+    [[themeConfig.sidebar."/프로그래밍/"]]
+      title = '고급'
+      collapsable = false
+      children = [
+        # '/프로그래밍/시작하기/',
+        # '/프로그래밍/기초-문법/'
+      ]
+
+    [[themeConfig.sidebar."/프로그래밍/"]]
+      title = '부록'
+      collapsable = false
+      children = [
+        '/프로그래밍/용어-사전/',
+      ]
+
+  [[themeConfig.nav]]
+  text = '데이터 구조'
+  link = '/데이터-구조/'
+
+  [[themeConfig.nav]]
+  text = '알고리즘'
+  link = '/알고리즘/'
 
   # [[themeConfig.nav]]
   # text = '쿡북'
