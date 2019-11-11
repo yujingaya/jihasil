@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "google9b676ce80488013e.html", "use": "@now/static" },
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": {
+        "distDir": ".vuepress/dist"
+      }
+    }
+  ]
+}
