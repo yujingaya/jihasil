@@ -54,4 +54,4 @@ smoothScroll = true
 
 [plugins]
   [plugins.'@vuepress/google-analytics']
-  ga = 'UA-130603275-1'
+  ga = 'UA-151972406-1'
