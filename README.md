@@ -7,7 +7,11 @@ footer = 'MIT License | Copyright © 2018-Present Yujin'
 ---
 
 <style lang="stylus">
-.hero h1
-    font-family: 'Nanum Myeongjo', serif
-    font-weight: 900
+.home .hero
+    h1
+        font-family: 'Nanum Myeongjo', serif
+        font-weight: 800
+    p.description
+        font-family: 'Nanum Myeongjo', serif
+        font-weight: 700
 </style>
