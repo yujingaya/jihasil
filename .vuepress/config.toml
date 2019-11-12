@@ -21,8 +21,9 @@ smoothScroll = true
       title = '기초'
       collapsable = false
       children = [
-        '/러스트/시작하기/',
-        '/러스트/기초-문법/'
+        '/러스트/시작하기',
+        '/러스트/변수',
+        '/러스트/문과-식'
       ]
 
     [[themeConfig.sidebar."/러스트/"]]
@@ -37,7 +38,7 @@ smoothScroll = true
       title = '부록'
       collapsable = false
       children = [
-        '/러스트/용어-사전/',
+        '/러스트/용어-사전',
       ]
 
   [[themeConfig.nav]]
